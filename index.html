@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>FuegoArcade — Juegos cortos, sin vueltas</title>
-<meta name="description" content="Juegos HTML5 cortos en español, servidos por Playgama. Entra, juega una ráfaga y sal. Sin registro.">
+<title>FuegoArcade — Juega gratis</title>
+<meta name="description" content="Más de 3.027 juegos HTML5 gratis para jugar al instante en móvil y escritorio. Sin registro.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://gameforgewire.com/">
 <meta name="theme-color" content="#131116">
@@ -15,180 +15,950 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="FuegoArcade">
 <meta property="og:locale" content="es_419">
-<meta property="og:title" content="FuegoArcade — Juegos cortos, sin vueltas">
-<meta property="og:description" content="Juegos HTML5 cortos en español, servidos por Playgama. Entra, juega una ráfaga y sal. Sin registro.">
+<meta property="og:title" content="FuegoArcade — Juega gratis">
+<meta property="og:description" content="Más de 3.027 juegos HTML5 gratis para jugar al instante en móvil y escritorio. Sin registro.">
 <meta property="og:url" content="https://gameforgewire.com/">
 <meta property="og:image" content="https://gameforgewire.com/og.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="FuegoArcade — Juegos cortos, sin vueltas">
-<meta name="twitter:description" content="Juegos HTML5 cortos en español, servidos por Playgama. Entra, juega una ráfaga y sal. Sin registro.">
+<meta name="twitter:title" content="FuegoArcade — Juega gratis">
+<meta name="twitter:description" content="Más de 3.027 juegos HTML5 gratis para jugar al instante en móvil y escritorio. Sin registro.">
 <link rel="stylesheet" href="/_astro/acerca.CNVaybQF.css">
 <link rel="stylesheet" href="/_astro/_slug_.CqbPNUC3.css">
 <link rel="stylesheet" href="/_astro/_slug_.BTTZeo5_.css">
 <style>
-.real-hero{padding:30px 0 8px}
-.real-kicker{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#ffc21a;margin:0 0 10px}
-.real-hero h1{font-size:clamp(32px,6vw,58px);line-height:.98;letter-spacing:-.045em;margin:0 0 10px;color:#fff}
-.real-hero h1 span{color:#ffc21a}
-.real-hero p{color:#a9a3b3;max-width:660px;font-size:clamp(15px,2vw,18px);margin:0}
-.real-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
-.real-chip{border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:8px 12px;font-size:13px;color:#f5f2ff;text-decoration:none}
-.real-chip:hover{border-color:#ffc21a;color:#ffc21a}
-.real-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:26px 0 12px}
-.real-head h2{font-size:20px;margin:0;color:#fff}
-.real-head a{color:#ffc21a;font-size:13px}
-.real-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:14px;padding:0;margin:0;list-style:none}
-.real-grid>li{min-width:0}
-@media(max-width:520px){.real-grid{grid-template-columns:repeat(2,1fr);gap:10px}}
-.real-note{color:#a9a3b3;font-size:13px;margin:16px 0;line-height:1.55}
-.real-original{margin:32px 0 16px}
-.real-original-card{background:linear-gradient(135deg,#2a2030,#17141c);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:22px}
-.real-original-card h2{margin:0 0 6px;color:#fff}
-.real-original-card p{color:#a9a3b3;margin:0 0 12px}
-.legal{max-width:820px;padding:24px 0 60px;line-height:1.65;color:#d9d4e4}
-.legal h1{color:#fff;margin-top:0}
-.legal h2{color:#fff;margin-top:28px}
-.legal a{color:#ffc21a}
+body{padding-bottom:0!important}
+.hdr .hdr__nav{display:none!important}
+.hdr .hdr__search{display:flex!important;width:min(420px,46vw)!important;margin-left:auto}
+.hdr .hdr__searchbtn{display:none!important}
+.hdr .hdr__in{gap:12px}
+.hdr .hdr__search input{font-size:16px}
+@media(max-width:640px){
+  .hdr .hdr__in{gap:10px}
+  .hdr .logo__word{display:none!important}
+  .hdr .hdr__search{width:auto!important;flex:1;min-width:0;min-height:40px;padding:0 10px}
+}
+.fg-home{padding-top:12px}
+.fg-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;list-style:none;margin:0;padding:0 0 34px}
+.fg-grid>li{min-width:0;content-visibility:auto;contain-intrinsic-size:150px 110px}
+.fg-grid>li[hidden]{display:none}
+.fg-card{position:relative;display:block;overflow:hidden;aspect-ratio:16/10;border-radius:12px;background:#1a1720;border:1px solid rgba(255,255,255,.07);text-decoration:none;transform:translateZ(0);transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease}
+.fg-card img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .28s ease}
+.fg-card__t{position:absolute;left:0;right:0;bottom:0;padding:20px 7px 6px;font-family:var(--f-titulo);font-size:11px;font-weight:800;line-height:1.2;letter-spacing:-.01em;color:#fff;text-shadow:0 1px 2px #000;background:linear-gradient(transparent,rgba(8,7,10,.92));display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.fg-card__play{position:absolute;inset:0;display:grid;place-items:center;opacity:0;background:rgba(5,4,7,.16);transition:opacity .15s ease}
+.fg-card__play span{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--c-mango);color:#111;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.fg-card:hover{transform:translateY(-2px);border-color:rgba(255,194,26,.6);box-shadow:0 12px 26px rgba(0,0,0,.38)}
+.fg-card:hover img{transform:scale(1.045)}
+.fg-card:hover .fg-card__play{opacity:1}
+.fg-card:focus-visible{outline:3px solid var(--c-mango);outline-offset:2px}
+@media(hover:none){.fg-card__play{display:none}}
+.fg-empty{color:#a9a3b3;padding:18px 0 40px;margin:0;font-size:14px}
+.fg-empty[hidden]{display:none}
+.fg-more{height:1px}
+@media(min-width:560px){.fg-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.fg-card__t{font-size:12px;padding:24px 9px 7px}}
+@media(min-width:760px){.fg-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}.fg-card{border-radius:14px}.fg-card__t{font-size:12.5px;padding:26px 10px 8px}}
+@media(min-width:1000px){.fg-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}.fg-card__t{font-size:13px}}
+@media(min-width:1300px){.fg-grid{grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px}}
+.fg-foot{border-top:1px solid rgba(255,255,255,.1);margin-top:8px;padding:20px 0 calc(24px + env(safe-area-inset-bottom));color:#8f8999;font-size:12px}
+.fg-foot__in{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.fg-foot nav{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.fg-foot a{color:#c9c3d4;text-decoration:none}
+.fg-foot a:hover{color:var(--c-mango)}
+.legal{max-width:820px;padding:26px 0 60px;line-height:1.65;color:#d9d4e4}
+.legal h1{color:#fff;margin-top:0;font-family:var(--f-titulo);letter-spacing:-.03em}
+.legal h2{color:#fff;margin-top:28px;font-family:var(--f-titulo)}
+.legal a{color:var(--c-mango)}
 .legal .muted{color:#a9a3b3}
+.fg-404{padding:60px 0 80px}
+.fg-404 h1{font-family:var(--f-titulo);font-size:clamp(42px,9vw,84px);margin:0 0 12px;color:#fff;letter-spacing:-.05em}
+.fg-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:var(--c-mango);color:#111;font-weight:800;text-decoration:none}
 </style>
 </head>
 <body data-astro-cid-5hce7sga>
 <a class="skip-link" href="#contenido" data-astro-cid-5hce7sga>Saltar al contenido</a>
-<header class="hdr" data-astro-cid-3ef6ksr2> <div class="wrap hdr__in" data-astro-cid-3ef6ksr2> <a href="/" class="hdr__logo" aria-label="FuegoArcade, ir al inicio" data-astro-cid-3ef6ksr2><span class="logo logo--md" data-astro-cid-tvrurpns> <svg class="logo__iso" viewBox="0 0 40 40" aria-hidden="true" focusable="false" data-astro-cid-tvrurpns><rect x="1" y="1" width="38" height="38" rx="11" fill="#ffc21a" stroke="#0a090b" stroke-width="2" data-astro-cid-tvrurpns></rect><path fill="#0a090b" d="M19.6 6.5c1.2 4.6 7.9 8 7.9 16.3 0 5.4-3.6 9.7-8.4 9.7-4.9 0-8.6-3.9-8.6-9 0-4.1 2.4-6.7 4.1-8.7.3 2.6 1.3 4.3 2.9 5-.7-4.7.3-9.4 2.1-13.3z" data-astro-cid-tvrurpns></path><path fill="#ffc21a" d="M19.3 30.2c-2.3 0-3.8-1.7-3.8-3.8 0-2.4 1.8-3.6 2.8-5.6 1.2 2.7 4.6 3.2 4.6 6 0 2-1.5 3.4-3.6 3.4z" data-astro-cid-tvrurpns></path><path fill="#0a090b" d="M30.5 6.8l1 2.7 2.7 1-2.7 1-1 2.7-1-2.7-2.7-1 2.7-1z" data-astro-cid-tvrurpns></path></svg> <span class="logo__word" data-astro-cid-tvrurpns> <span class="sr-only" data-astro-cid-tvrurpns>FuegoArcade</span> <span aria-hidden="true" data-astro-cid-tvrurpns>Fuego<b data-astro-cid-tvrurpns>Arcade</b></span> </span> </span> </a> <nav class="hdr__nav" aria-label="Principal" data-astro-cid-3ef6ksr2> <ul data-astro-cid-3ef6ksr2> <li data-astro-cid-3ef6ksr2><a href="/juegos" aria-current="page" data-astro-cid-3ef6ksr2>Juegos</a></li><li data-astro-cid-3ef6ksr2><a href="/categoria" data-astro-cid-3ef6ksr2>Categorías</a></li><li data-astro-cid-3ef6ksr2><a href="/juegos-originales" data-astro-cid-3ef6ksr2>Originales</a></li> </ul> </nav> <form class="hdr__search" action="/juegos" method="get" role="search" data-astro-cid-3ef6ksr2> <label for="hdr-q" class="sr-only" data-astro-cid-3ef6ksr2>Buscar juegos</label> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg> <input id="hdr-q" name="q" type="search" placeholder="Busca un juego…" autocomplete="off" enterkeyhint="search" minlength="2" data-astro-cid-3ef6ksr2> </form> <a href="/juegos#buscar" class="hdr__searchbtn btn btn--icon btn--ghost" aria-label="Buscar juegos" data-astro-cid-3ef6ksr2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></a> </div> </header>
-<nav class="tabbar" aria-label="Navegación rápida" data-astro-cid-3ef6ksr2> <ul data-astro-cid-3ef6ksr2> <li data-astro-cid-3ef6ksr2> <a href="/" data-astro-cid-3ef6ksr2> <span class="tabbar__ico" data-astro-cid-3ef6ksr2><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 11 12 4.5 20 11v8.5h-5.5v-5h-5v5H4V11Z"/></svg></span> <span data-astro-cid-3ef6ksr2>Inicio</span> </a> </li><li data-astro-cid-3ef6ksr2> <a href="/juegos" aria-current="page" data-astro-cid-3ef6ksr2> <span class="tabbar__ico" data-astro-cid-3ef6ksr2><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/></svg></span> <span data-astro-cid-3ef6ksr2>Juegos</span> </a> </li><li data-astro-cid-3ef6ksr2> <a href="/juegos-originales" data-astro-cid-3ef6ksr2> <span class="tabbar__ico" data-astro-cid-3ef6ksr2><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></svg></span> <span data-astro-cid-3ef6ksr2>Originales</span> </a> </li> </ul> </nav>
+<header class="hdr" data-astro-cid-3ef6ksr2> <div class="wrap hdr__in" data-astro-cid-3ef6ksr2> <a href="/" class="hdr__logo" aria-label="FuegoArcade, ir al inicio" data-astro-cid-3ef6ksr2><span class="logo logo--md" data-astro-cid-tvrurpns> <svg class="logo__iso" viewBox="0 0 40 40" aria-hidden="true" focusable="false" data-astro-cid-tvrurpns><rect x="1" y="1" width="38" height="38" rx="11" fill="#ffc21a" stroke="#0a090b" stroke-width="2" data-astro-cid-tvrurpns></rect><path fill="#0a090b" d="M19.6 6.5c1.2 4.6 7.9 8 7.9 16.3 0 5.4-3.6 9.7-8.4 9.7-4.9 0-8.6-3.9-8.6-9 0-4.1 2.4-6.7 4.1-8.7.3 2.6 1.3 4.3 2.9 5-.7-4.7.3-9.4 2.1-13.3z" data-astro-cid-tvrurpns></path><path fill="#ffc21a" d="M19.3 30.2c-2.3 0-3.8-1.7-3.8-3.8 0-2.4 1.8-3.6 2.8-5.6 1.2 2.7 4.6 3.2 4.6 6 0 2-1.5 3.4-3.6 3.4z" data-astro-cid-tvrurpns></path><path fill="#0a090b" d="M30.5 6.8l1 2.7 2.7 1-2.7 1-1 2.7-1-2.7-2.7-1 2.7-1z" data-astro-cid-tvrurpns></path></svg> <span class="logo__word" data-astro-cid-tvrurpns> <span class="sr-only" data-astro-cid-tvrurpns>FuegoArcade</span> <span aria-hidden="true" data-astro-cid-tvrurpns>Fuego<b data-astro-cid-tvrurpns>Arcade</b></span> </span> </span> </a>  <form class="hdr__search" action="/" method="get" role="search" data-astro-cid-3ef6ksr2> <label for="hdr-q" class="sr-only" data-astro-cid-3ef6ksr2>Buscar juegos</label> <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg> <input id="hdr-q" name="q" type="search" placeholder="Buscar juego" autocomplete="off" enterkeyhint="search" minlength="2" data-astro-cid-3ef6ksr2> </form>  </div> </header>
 <main id="contenido" tabindex="-1" data-astro-cid-5hce7sga>
-
-<section class="wrap real-hero">
-<p class="real-kicker">Juegos cortos · sin registro</p>
-<h1>Juegos cortos. <span>Sin vueltas.</span></h1>
-<p>Ráfagas de 1–5 minutos con juegos reales servidos por Playgama. Entra, juega y sal.</p>
-<div class="real-chips">
-<a class="real-chip" href="/categoria/puzzle">Puzzle</a>
-<a class="real-chip" href="/categoria/reflejos-arcade">Reflejos y arcade</a>
-<a class="real-chip" href="/categoria/habilidad-timing">Habilidad y timing</a>
-<a class="real-chip" href="/categoria/carreras-ligeras">Carreras ligeras</a>
-<a class="real-chip" href="/categoria/dos-jugadores">2 jugadores</a>
-</div>
-</section>
-<section class="wrap">
-<div class="real-head"><h2>Todos los juegos</h2><a href="/juegos">Ver catálogo →</a></div>
-<ul class="real-grid"><li data-astro-cid-6tx37kzw>
-<article class="card" style="--acc:var(--c-mango)" data-card data-slug="piece-of-cake-merge--bake" data-cat="puzzle" data-min="5" data-dev="movil escritorio" data-ctrl="toque teclado" data-search="piece of cake: merge &amp; bake puzzle fusiona ingredientes, amplía tu mesa y revive una cafetería en un puzzle de combinación con progreso. partidas de unos 5 minutos." data-astro-cid-lt7snxjp>
-<div class="card__cover" data-astro-cid-lt7snxjp>
-<img src="https://static.playgama.com/p-img/pg/piece-of-cake-merge--bake/big_preview/b772122937124aa6b59d6e130537c8a8?width=448" width="480" height="480" alt="" loading="lazy" decoding="async">
-<span class="card__badges" data-astro-cid-lt7snxjp><span class="b b--new" data-astro-cid-lt7snxjp>Playgama</span></span>
-<span class="card__chips" data-astro-cid-lt7snxjp><span class="b b--dark" data-astro-cid-lt7snxjp>5 min</span></span>
-<span class="card__play" aria-hidden="true" data-astro-cid-lt7snxjp><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13l10.5-6.5L8 5.5Z" fill="currentColor"></path></svg><span data-astro-cid-lt7snxjp>Jugar</span></span>
-</div>
-<div class="card__body" data-astro-cid-lt7snxjp>
-<h3 class="card__title" data-astro-cid-lt7snxjp="true"><a href="/juegos/piece-of-cake-merge--bake" data-astro-cid-lt7snxjp>Piece of Cake: Merge &amp; Bake</a></h3>
-<p class="card__cat" data-astro-cid-lt7snxjp><span class="card__dot" aria-hidden="true" data-astro-cid-lt7snxjp></span>Puzzle</p>
-</div>
-</article>
-</li><li data-astro-cid-6tx37kzw>
-<article class="card" style="--acc:var(--c-mango)" data-card data-slug="fruit-merge-playgama" data-cat="puzzle" data-min="3" data-dev="movil escritorio" data-ctrl="toque teclado" data-search="fruit merge: juicy drop puzzle une frutas iguales para crear una gigante. fácil de empezar, difícil de soltar; ideal para una ráfaga de 2–3 minutos." data-astro-cid-lt7snxjp>
-<div class="card__cover" data-astro-cid-lt7snxjp>
-<img src="https://static.playgama.com/p-img/pg/fruit-merge-playgama/big_preview/f88e2107d6554e668566d486ba0518a4?width=448" width="480" height="480" alt="" loading="lazy" decoding="async">
-<span class="card__badges" data-astro-cid-lt7snxjp><span class="b b--new" data-astro-cid-lt7snxjp>Playgama</span></span>
-<span class="card__chips" data-astro-cid-lt7snxjp><span class="b b--dark" data-astro-cid-lt7snxjp>3 min</span></span>
-<span class="card__play" aria-hidden="true" data-astro-cid-lt7snxjp><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13l10.5-6.5L8 5.5Z" fill="currentColor"></path></svg><span data-astro-cid-lt7snxjp>Jugar</span></span>
-</div>
-<div class="card__body" data-astro-cid-lt7snxjp>
-<h3 class="card__title" data-astro-cid-lt7snxjp="true"><a href="/juegos/fruit-merge-playgama" data-astro-cid-lt7snxjp>Fruit Merge: Juicy Drop</a></h3>
-<p class="card__cat" data-astro-cid-lt7snxjp><span class="card__dot" aria-hidden="true" data-astro-cid-lt7snxjp></span>Puzzle</p>
-</div>
-</article>
-</li><li data-astro-cid-6tx37kzw>
-<article class="card" style="--acc:var(--c-mango)" data-card data-slug="mahjong-classic" data-cat="puzzle" data-min="5" data-dev="movil escritorio" data-ctrl="toque teclado" data-search="mahjong classic puzzle mahjong solitario con tableros siempre resolubles. encuentra parejas, limpia el tablero y usa boosters cuando te atores." data-astro-cid-lt7snxjp>
-<div class="card__cover" data-astro-cid-lt7snxjp>
-<img src="https://static.playgama.com/p-img/pg/mahjong-classic/big-preview/730f65084d864a9baffefa86e110b106?width=448" width="480" height="480" alt="" loading="lazy" decoding="async">
-<span class="card__badges" data-astro-cid-lt7snxjp><span class="b b--new" data-astro-cid-lt7snxjp>Playgama</span></span>
-<span class="card__chips" data-astro-cid-lt7snxjp><span class="b b--dark" data-astro-cid-lt7snxjp>5 min</span></span>
-<span class="card__play" aria-hidden="true" data-astro-cid-lt7snxjp><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13l10.5-6.5L8 5.5Z" fill="currentColor"></path></svg><span data-astro-cid-lt7snxjp>Jugar</span></span>
-</div>
-<div class="card__body" data-astro-cid-lt7snxjp>
-<h3 class="card__title" data-astro-cid-lt7snxjp="true"><a href="/juegos/mahjong-classic" data-astro-cid-lt7snxjp>Mahjong Classic</a></h3>
-<p class="card__cat" data-astro-cid-lt7snxjp><span class="card__dot" aria-hidden="true" data-astro-cid-lt7snxjp></span>Puzzle</p>
-</div>
-</article>
-</li><li data-astro-cid-6tx37kzw>
-<article class="card" style="--acc:var(--c-mango)" data-card data-slug="good-sort-master" data-cat="puzzle" data-min="3" data-dev="movil escritorio" data-ctrl="toque teclado" data-search="good sort master: triple match puzzle ordena objetos en estantes y conecta tres iguales. un puzzle relajante de observar y colocar." data-astro-cid-lt7snxjp>
-<div class="card__cover" data-astro-cid-lt7snxjp>
-<img src="https://static.playgama.com/p-img/pg/good-sort-master/big-preview/87153c5702e14ce994b208df2c0a5f61?width=448" width="480" height="480" alt="" loading="lazy" decoding="async">
-<span class="card__badges" data-astro-cid-lt7snxjp><span class="b b--new" data-astro-cid-lt7snxjp>Playgama</span></span>
-<span class="card__chips" data-astro-cid-lt7snxjp><span class="b b--dark" data-astro-cid-lt7snxjp>3 min</span></span>
-<span class="card__play" aria-hidden="true" data-astro-cid-lt7snxjp><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13l10.5-6.5L8 5.5Z" fill="currentColor"></path></svg><span data-astro-cid-lt7snxjp>Jugar</span></span>
-</div>
-<div class="card__body" data-astro-cid-lt7snxjp>
-<h3 class="card__title" data-astro-cid-lt7snxjp="true"><a href="/juegos/good-sort-master" data-astro-cid-lt7snxjp>Good Sort Master: Triple Match</a></h3>
-<p class="card__cat" data-astro-cid-lt7snxjp><span class="card__dot" aria-hidden="true" data-astro-cid-lt7snxjp></span>Puzzle</p>
-</div>
-</article>
-</li><li data-astro-cid-6tx37kzw>
-<article class="card" style="--acc:var(--c-mango)" data-card data-slug="hidden-object-clues-and-mysteries" data-cat="puzzle" data-min="5" data-dev="movil escritorio" data-ctrl="toque teclado" data-search="hidden object: clues and mysteries puzzle encuentra objetos ocultos en escenarios detallados y resuelve pequeños misterios. partidas de observación de 3–5 minutos." data-astro-cid-lt7snxjp>
-<div class="card__cover" data-astro-cid-lt7snxjp>
-<img src="https://static.playgama.com/p-img/pg/hidden-object-clues-and-mysteries/big-preview/918efb60143240eb99d962fecc6cdaf8?width=448" width="480" height="480" alt="" loading="lazy" decoding="async">
-<span class="card__badges" data-astro-cid-lt7snxjp><span class="b b--new" data-astro-cid-lt7snxjp>Playgama</span></span>
-<span class="card__chips" data-astro-cid-lt7snxjp><span class="b b--dark" data-astro-cid-lt7snxjp>5 min</span></span>
-<span class="card__play" aria-hidden="true" data-astro-cid-lt7snxjp><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13l10.5-6.5L8 5.5Z" fill="currentColor"></path></svg><span data-astro-cid-lt7snxjp>Jugar</span></span>
-</div>
-<div class="card__body" data-astro-cid-lt7snxjp>
-<h3 class="card__title" data-astro-cid-lt7snxjp="true"><a href="/juegos/hidden-object-clues-and-mysteries" data-astro-cid-lt7snxjp>Hidden Object: Clues and Mysteries</a></h3>
-<p class="card__cat" data-astro-cid-lt7snxjp><span class="card__dot" aria-hidden="true" data-astro-cid-lt7snxjp></span>Puzzle</p>
-</div>
-</article>
-</li><li data-astro-cid-6tx37kzw>
-<article class="card" style="--acc:var(--c-mango)" data-card data-slug="soccer-random" data-cat="dos-jugadores" data-min="2" data-dev="movil escritorio" data-ctrl="toque teclado" data-search="soccer random 2 jugadores fútbol físico y caótico para dos jugadores en el mismo dispositivo. rápido, imprevisible y fácil de empezar." data-astro-cid-lt7snxjp>
-<div class="card__cover" data-astro-cid-lt7snxjp>
-<img src="https://static.playgama.com/p-img/pg/soccer-random/big-preview/6f59ef235c1e42198225c02473d66943?width=448" width="480" height="480" alt="" loading="lazy" decoding="async">
-<span class="card__badges" data-astro-cid-lt7snxjp><span class="b b--new" data-astro-cid-lt7snxjp>Playgama</span></span>
-<span class="card__chips" data-astro-cid-lt7snxjp><span class="b b--dark" data-astro-cid-lt7snxjp>2 min</span><span class="b b--dark" data-astro-cid-lt7snxjp>2 jug.</span></span>
-<span class="card__play" aria-hidden="true" data-astro-cid-lt7snxjp><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13l10.5-6.5L8 5.5Z" fill="currentColor"></path></svg><span data-astro-cid-lt7snxjp>Jugar</span></span>
-</div>
-<div class="card__body" data-astro-cid-lt7snxjp>
-<h3 class="card__title" data-astro-cid-lt7snxjp="true"><a href="/juegos/soccer-random" data-astro-cid-lt7snxjp>Soccer Random</a></h3>
-<p class="card__cat" data-astro-cid-lt7snxjp><span class="card__dot" aria-hidden="true" data-astro-cid-lt7snxjp></span>2 jugadores</p>
-</div>
-</article>
-</li><li data-astro-cid-6tx37kzw>
-<article class="card" style="--acc:var(--c-mango)" data-card data-slug="basketball-stars" data-cat="dos-jugadores" data-min="3" data-dev="movil escritorio" data-ctrl="toque teclado" data-search="basketball stars 2 jugadores baloncesto uno contra uno en el mismo dispositivo o contra la máquina. mates, triples y partidas cortas." data-astro-cid-lt7snxjp>
-<div class="card__cover" data-astro-cid-lt7snxjp>
-<img src="https://static.playgama.com/p-img/pg/basketball-stars/big_preview/2e0653c710ad43e09c40d1ba5968e447?width=448" width="480" height="480" alt="" loading="lazy" decoding="async">
-<span class="card__badges" data-astro-cid-lt7snxjp><span class="b b--new" data-astro-cid-lt7snxjp>Playgama</span></span>
-<span class="card__chips" data-astro-cid-lt7snxjp><span class="b b--dark" data-astro-cid-lt7snxjp>3 min</span><span class="b b--dark" data-astro-cid-lt7snxjp>2 jug.</span></span>
-<span class="card__play" aria-hidden="true" data-astro-cid-lt7snxjp><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13l10.5-6.5L8 5.5Z" fill="currentColor"></path></svg><span data-astro-cid-lt7snxjp>Jugar</span></span>
-</div>
-<div class="card__body" data-astro-cid-lt7snxjp>
-<h3 class="card__title" data-astro-cid-lt7snxjp="true"><a href="/juegos/basketball-stars" data-astro-cid-lt7snxjp>Basketball Stars</a></h3>
-<p class="card__cat" data-astro-cid-lt7snxjp><span class="card__dot" aria-hidden="true" data-astro-cid-lt7snxjp></span>2 jugadores</p>
-</div>
-</article>
-</li><li data-astro-cid-6tx37kzw>
-<article class="card" style="--acc:var(--c-mango)" data-card data-slug="moto-x3m" data-cat="carreras-ligeras" data-min="3" data-dev="movil escritorio" data-ctrl="toque teclado" data-search="moto x3m carreras ligeras motos, rampas y contrarreloj. niveles cortos de habilidad y reflejos; controles simples para móvil y teclado." data-astro-cid-lt7snxjp>
-<div class="card__cover" data-astro-cid-lt7snxjp>
-<img src="https://static.playgama.com/p-img/pg/moto-x3m/big_preview/6863e1c77f624087bae1d217cdf4c240?width=448" width="480" height="480" alt="" loading="lazy" decoding="async">
-<span class="card__badges" data-astro-cid-lt7snxjp><span class="b b--new" data-astro-cid-lt7snxjp>Playgama</span></span>
-<span class="card__chips" data-astro-cid-lt7snxjp><span class="b b--dark" data-astro-cid-lt7snxjp>3 min</span></span>
-<span class="card__play" aria-hidden="true" data-astro-cid-lt7snxjp><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M8 5.5v13l10.5-6.5L8 5.5Z" fill="currentColor"></path></svg><span data-astro-cid-lt7snxjp>Jugar</span></span>
-</div>
-<div class="card__body" data-astro-cid-lt7snxjp>
-<h3 class="card__title" data-astro-cid-lt7snxjp="true"><a href="/juegos/moto-x3m" data-astro-cid-lt7snxjp>Moto X3M</a></h3>
-<p class="card__cat" data-astro-cid-lt7snxjp><span class="card__dot" aria-hidden="true" data-astro-cid-lt7snxjp></span>Carreras ligeras</p>
-</div>
-</article>
+<section class="wrap fg-home" id="juegos" aria-label="Juegos">
+<h1 class="sr-only">Juegos gratis</h1>
+<ul class="fg-grid" id="grid"><li data-search="piece of cake: merge &amp; bake puzzle girls food merge cozy cake cooking">
+<a class="fg-card" href="/juegos/piece-of-cake-merge--bake/" aria-label="Piece of Cake: Merge &amp; Bake">
+<img src="https://static.playgama.com/p-img/pg/piece-of-cake-merge--bake/big_preview/b772122937124aa6b59d6e130537c8a8?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Piece of Cake: Merge &amp; Bake</span>
+</a>
+</li><li data-search="tb world girls kids make-up dress-up decoration cozy">
+<a class="fg-card" href="/juegos/tb-world/" aria-label="TB World">
+<img src="https://static.playgama.com/p-img/pg/tb-world/big_preview/af8743dadae94cfcb657a3580f7fc149?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">TB World</span>
+</a>
+</li><li data-search="mahjong classic matching mahjong">
+<a class="fg-card" href="/juegos/mahjong-classic/" aria-label="Mahjong Classic">
+<img src="https://static.playgama.com/p-img/pg/mahjong-classic/big-preview/730f65084d864a9baffefa86e110b106?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Mahjong Classic</span>
+</a>
+</li><li data-search="pvz fusion cheats strategy zombie tower-defense">
+<a class="fg-card" href="/juegos/plants-vs-zombies-fusion-edition/" aria-label="PVZ Fusion Cheats">
+<img src="https://static.playgama.com/p-img/pg/plants-vs-zombies-fusion-edition/big_preview/0a3f694494fd4b469429f9c8baf0cb93?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">PVZ Fusion Cheats</span>
+</a>
+</li><li data-search="plants vs zombies fusion mode strategy zombie pve tower-defense">
+<a class="fg-card" href="/juegos/plants-vs-zombies-fusion-mode/" aria-label="Plants vs Zombies Fusion Mode">
+<img src="https://static.playgama.com/p-img/pg/preview/fba803d158f64587b0fc5146c19dda67?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Plants vs Zombies Fusion Mode</span>
+</a>
+</li><li data-search="hidden object: clues and mysteries adventure hidden-object point-and-click mobile">
+<a class="fg-card" href="/juegos/hidden-object-clues-and-mysteries/" aria-label="Hidden Object: Clues and Mysteries">
+<img src="https://static.playgama.com/p-img/pg/hidden-object-clues-and-mysteries/big-preview/918efb60143240eb99d962fecc6cdaf8?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Hidden Object: Clues and Mysteries</span>
+</a>
+</li><li data-search="deadly descent racing boys car driving">
+<a class="fg-card" href="/juegos/deadly-descent/" aria-label="Deadly Descent">
+<img src="https://static.playgama.com/p-img/pg/deadly-descent/big-preview/cd3969f230d54e6abe01716483d55c8a?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Deadly Descent</span>
+</a>
+</li><li data-search="good sort master: triple match puzzle matching">
+<a class="fg-card" href="/juegos/good-sort-master/" aria-label="Good Sort Master: Triple Match">
+<img src="https://static.playgama.com/p-img/pg/good-sort-master/big-preview/87153c5702e14ce994b208df2c0a5f61?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Good Sort Master: Triple Match</span>
+</a>
+</li><li data-search="mahjong lines puzzle matching mahjong brain logic board easy">
+<a class="fg-card" href="/juegos/mahjong-lines/" aria-label="Mahjong Lines">
+<img src="https://static.playgama.com/p-img/pg/mahjong-lines/big_preview/96269817997541b48d15ed462ff66d47?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Mahjong Lines</span>
+</a>
+</li><li data-search="hidden object: street of secrets adventure hidden-object story intelligence">
+<a class="fg-card" href="/juegos/hidden-object-street-of-secrets/" aria-label="Hidden Object: Street Of Secrets">
+<img src="https://static.playgama.com/p-img/pg/hidden-object-street-of-secrets/big_preview/b4e56a265daf458f9027f9fa24f4f10d?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Hidden Object: Street Of Secrets</span>
+</a>
+</li><li data-search="idol livestream: doll dress up girls make-up dress-up decoration easy fashion hair">
+<a class="fg-card" href="/juegos/idol-livestream-doll-dress-up/" aria-label="Idol Livestream: Doll Dress Up">
+<img src="https://static.playgama.com/p-img/pg/idol-livestream-doll-dress-up/big_preview/6d0fa2792f7e4f3a995b2c5a2f1bec7a?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Idol Livestream: Doll Dress Up</span>
+</a>
+</li><li data-search="nuts puzzle: sort by color puzzle matching color">
+<a class="fg-card" href="/juegos/nuts-puzzle-sort-by-color/" aria-label="Nuts Puzzle: Sort By Color">
+<img src="https://static.playgama.com/p-img/pg/nuts-puzzle-sort-by-color/big_preview/faab3ed519024179b5a31afb72cdf675?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Nuts Puzzle: Sort By Color</span>
+</a>
+</li><li data-search="my town home: family playhouse girls kids cozy">
+<a class="fg-card" href="/juegos/my-town-home-family-playhouse/" aria-label="My Town Home: Family Playhouse">
+<img src="https://static.playgama.com/p-img/pg/my-town-home-family-playhouse/big_preview/7cfc3b9750e84aceb634888d9518f8d3?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">My Town Home: Family Playhouse</span>
+</a>
+</li><li data-search="sprunki sandbox: ragdoll playground mode simulation funny ragdoll">
+<a class="fg-card" href="/juegos/sprunki-sandbox-ragdoll-playground-mode-d3fe-1/" aria-label="Sprunki Sandbox: Ragdoll Playground Mode">
+<img src="https://static.playgama.com/p-img/pg/sprunki-sandbox-ragdoll-playground-mode-d3fe-1/big_preview/4b22e0f490ef433fa1d7656a711542ed?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Sprunki Sandbox: Ragdoll Playground Mode</span>
+</a>
+</li><li data-search="hedgies simulation animals management cozy farm crafting cooking">
+<a class="fg-card" href="/juegos/hedgies/" aria-label="Hedgies">
+<img src="https://static.playgama.com/p-img/pg/hedgies/big_preview/82348afa3e7b4db0bf915c835c40a8bd?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Hedgies</span>
+</a>
+</li><li data-search="sprunki world online rp - play with friends! 3d multiplayer co-op obby popular">
+<a class="fg-card" href="/juegos/sprunki-world-online-rp--play-with-friends/" aria-label="Sprunki World Online RP - Play with Friends!">
+<img src="https://static.playgama.com/p-img/pg/preview/bb529207624a4c96bfc2632650f9fd8d?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Sprunki World Online RP - Play with Friends!</span>
+</a>
+</li><li data-search="numicolor drawing color">
+<a class="fg-card" href="/juegos/numicolor/" aria-label="Numicolor">
+<img src="https://static.playgama.com/p-img/pg/preview/c2baef5d652a44b2900f383c159b1a92?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Numicolor</span>
+</a>
+</li><li data-search="rivals fps: online shooter action arcade boys 3d multiplayer shooting pvp first-person-shooter">
+<a class="fg-card" href="/juegos/rivals-fps-online-shooter/" aria-label="RIVALS FPS: Online Shooter">
+<img src="https://static.playgama.com/p-img/pg/rivals-fps-online-shooter/big_preview/f09adf25db724a509d28d6427dfd4d7c?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">RIVALS FPS: Online Shooter</span>
+</a>
+</li><li data-search="aod - art of defense strategy boys cool-games popular tower-defense mobile">
+<a class="fg-card" href="/juegos/aod--art-of-defense/" aria-label="AOD - Art Of Defense">
+<img src="https://static.playgama.com/p-img/pg/aod--art-of-defense/big_preview/748d6b91ce3c4a309fd6df323115b434?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">AOD - Art Of Defense</span>
+</a>
+</li><li data-search="soccer random arcade sports two-player boys funny physics soccer">
+<a class="fg-card" href="/juegos/soccer-random/" aria-label="Soccer Random">
+<img src="https://static.playgama.com/p-img/pg/soccer-random/big-preview/6f59ef235c1e42198225c02473d66943?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Soccer Random</span>
+</a>
+</li><li data-search="age of heroes strategy boys pve army tower-defense rpg war">
+<a class="fg-card" href="/juegos/age-of-heroes/" aria-label="Age of Heroes">
+<img src="https://static.playgama.com/p-img/pg/age-of-heroes/big_preview/2edf00207ba34813b41dd9b22da461c4?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Age of Heroes</span>
+</a>
+</li><li data-search="screw &amp; pin: puzzle levels puzzle matching physics brain logic">
+<a class="fg-card" href="/juegos/screw--pin-puzzle-levels/" aria-label="Screw &amp; Pin: Puzzle Levels">
+<img src="https://static.playgama.com/p-img/pg/screw-pin-puzzle-levels/big_preview/da9e577e17df48d1b4494f43c34126d2?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Screw &amp; Pin: Puzzle Levels</span>
+</a>
+</li><li data-search="build your zombie horde strategy boys zombie army mobile">
+<a class="fg-card" href="/juegos/build-your-zombie-horde/" aria-label="Build Your Zombie Horde">
+<img src="https://static.playgama.com/p-img/pg/build-your-zombie-horde/big-preview/36fafc3063dd437e90df9d3b1fdf6f5a?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Build Your Zombie Horde</span>
+</a>
+</li><li data-search="find match 3d puzzle 3d popular matching logic">
+<a class="fg-card" href="/juegos/find-match-3d/" aria-label="Find Match 3D">
+<img src="https://static.playgama.com/p-img/pg/find-match-3d/big-preview/b8951ea43f0c4e18af3401f015c1750c?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Find Match 3D</span>
+</a>
+</li><li data-search="diamant: match 3 sky story match-3 story matching mobile">
+<a class="fg-card" href="/juegos/diamant-match-3-sky-story/" aria-label="Diamant: Match 3 Sky Story">
+<img src="https://static.playgama.com/p-img/pg/preview/03e557e7d56a44e4b13b9c9ac4c16bbb?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Diamant: Match 3 Sky Story</span>
+</a>
+</li><li data-search="scary rooms: idle horror horror tycoon management idle">
+<a class="fg-card" href="/juegos/scary-rooms-idle-horror/" aria-label="Scary Rooms: Idle Horror">
+<img src="https://static.playgama.com/p-img/pg/scary-rooms-idle-horror/big_preview/1a4791b44d8f475b8e4bde2deda24fc1?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Scary Rooms: Idle Horror</span>
+</a>
+</li><li data-search="epic empire: tower defense strategy boys pve monster tower-defense">
+<a class="fg-card" href="/juegos/epic-empire-tower-defense/" aria-label="Epic Empire: Tower Defense">
+<img src="https://static.playgama.com/p-img/pg/epic-empire-tower-defense/big-preview/e36d9a6a44964f5f8add3f0947fa390d?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Epic Empire: Tower Defense</span>
+</a>
+</li><li data-search="tile valley puzzle cozy matching mahjong brain mini">
+<a class="fg-card" href="/juegos/tile-valley/" aria-label="Tile Valley">
+<img src="https://static.playgama.com/p-img/pg/tile-valley/big-preview/dabea2e0c14043aeacf15adde56deb3a?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Tile Valley</span>
+</a>
+</li><li data-search="shape transforming: shifting run arcade skill">
+<a class="fg-card" href="/juegos/shape-transforming-shifting-run/" aria-label="Shape Transforming: Shifting Run">
+<img src="https://static.playgama.com/p-img/pg/shape-transforming-shifting-run/big-preview/086d500d59e14cb9b717c43000d3ad36?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Shape Transforming: Shifting Run</span>
+</a>
+</li><li data-search="my arcade center arcade simulation tycoon management idle">
+<a class="fg-card" href="/juegos/my-arcade-center/" aria-label="My Arcade Center">
+<img src="https://static.playgama.com/p-img/pg/my-arcade-center/big_preview/b20cdd7c5494467f9a54fccccd2a61ba?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">My Arcade Center</span>
+</a>
+</li><li data-search="chicken merge strategy merge tower-defense">
+<a class="fg-card" href="/juegos/chicken-merge/" aria-label="Chicken Merge">
+<img src="https://static.playgama.com/p-img/pg/chicken-merge/big-preview/d377910396884919abf84d8d1f6f3d31?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Chicken Merge</span>
+</a>
+</li><li data-search="hidden objects: island secrets mouse hidden-object story brain">
+<a class="fg-card" href="/juegos/hidden-objects-island-secrets/" aria-label="Hidden Objects: Island Secrets">
+<img src="https://static.playgama.com/p-img/pg/hidden-objects-island-secrets/big-preview/b3ce353c3ceb41be990ddee1759a2144?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Hidden Objects: Island Secrets</span>
+</a>
+</li><li data-search="bubble blast bubble-shooter matching bubble">
+<a class="fg-card" href="/juegos/bubble-blast/" aria-label="Bubble Blast">
+<img src="https://static.playgama.com/p-img/pg/bubble-blast/big-preview/48be0e1ca5354daa8378d69daea53114?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Bubble Blast</span>
+</a>
+</li><li data-search="master chess two-player multiplayer 1v1 chess board">
+<a class="fg-card" href="/juegos/master-chess/" aria-label="Master Chess">
+<img src="https://static.playgama.com/p-img/pg/master-chess/big-preview/52cdd471a5044f1e94c36787ee523746?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Master Chess</span>
+</a>
+</li><li data-search="chess online playing two-player multiplayer 1v1 chess brain intelligence board">
+<a class="fg-card" href="/juegos/chess-online-playing/" aria-label="Chess Online Playing">
+<img src="https://static.playgama.com/p-img/pg/chess-online-playing/big-preview/21a2ea2e959c4c59856c90f7e4897dd4?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Chess Online Playing</span>
+</a>
+</li><li data-search="chess online multiplayer two-player multiplayer chess classic board">
+<a class="fg-card" href="/juegos/chess-online-multiplayer/" aria-label="Chess Online Multiplayer">
+<img src="https://static.playgama.com/p-img/pg/preview/dd9781afd09a46418fea5d992bb7edfa?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Chess Online Multiplayer</span>
+</a>
+</li><li data-search="bubble shooter: tap &amp; pop arcade skill bubble-shooter matching bubble mobile">
+<a class="fg-card" href="/juegos/bubble-shooter-tap--pop/" aria-label="Bubble Shooter: Tap &amp; Pop">
+<img src="https://static.playgama.com/p-img/pg/bubble-shooter-tap--pop/big-preview/c64cb16afcdf4a9b8aa6dde6b6cec88d?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Bubble Shooter: Tap &amp; Pop</span>
+</a>
+</li><li data-search="basketball stars arcade sports two-player boys popular basketball pvp ball unblocked">
+<a class="fg-card" href="/juegos/basketball-stars/" aria-label="Basketball Stars">
+<img src="https://static.playgama.com/p-img/pg/basketball-stars/big_preview/2e0653c710ad43e09c40d1ba5968e447?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Basketball Stars</span>
+</a>
+</li><li data-search="word finder words educational brain logic intelligence">
+<a class="fg-card" href="/juegos/word-finder/" aria-label="Word Finder">
+<img src="https://static.playgama.com/p-img/pg/word-finder/big_preview/781af1adb04747a5b1fafedc05eef869?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Word Finder</span>
+</a>
+</li><li data-search="mahjong unlimited matching mahjong brain">
+<a class="fg-card" href="/juegos/mahjong-unlimited/" aria-label="Mahjong Unlimited">
+<img src="https://static.playgama.com/p-img/pg/mahjong-unlimited/big-preview/ceb7ccfc4ded46b8aab8673d6aeca8d7?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Mahjong Unlimited</span>
+</a>
+</li><li data-search="hazmob fps: online shooter action boys 3d multiplayer shooting gun cool-games popular first-person-shooter sniper">
+<a class="fg-card" href="/juegos/hazmob-fps-online-shooter/" aria-label="Hazmob FPS: Online Shooter">
+<img src="https://static.playgama.com/p-img/pg/hazmob-fps-online-shooter/big_preview/df01c609f8c44052b837b336d0e63617?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Hazmob FPS: Online Shooter</span>
+</a>
+</li><li data-search="plants vs zombies hybrids strategy zombie tower-defense">
+<a class="fg-card" href="/juegos/plants-vs-zombies-hybrids/" aria-label="Plants vs Zombies Hybrids">
+<img src="https://static.playgama.com/p-img/pg/plants-vs-zombies-hybrids/big_preview/f760a2d2906a4e8e93795c3e674d5c4f?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Plants vs Zombies Hybrids</span>
+</a>
+</li><li data-search="mahjong puzzle: tile match puzzle matching mahjong brain logic">
+<a class="fg-card" href="/juegos/mahjong-puzzle-tile-match/" aria-label="Mahjong Puzzle: Tile Match">
+<img src="https://static.playgama.com/p-img/pg/mahjong-puzzle-tile-match/big-preview/c4e6143f9d2d42188591a56b9ac0aea9?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Mahjong Puzzle: Tile Match</span>
+</a>
+</li><li data-search="backgammon backgammon classic board mobile">
+<a class="fg-card" href="/juegos/backgammon-multiplayer/" aria-label="Backgammon">
+<img src="https://static.playgama.com/p-img/pg/backgammon-multiplayer/big-preview/763a51507ab541d6a86327001536b609?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Backgammon</span>
+</a>
+</li><li data-search="block blast master classic difficult blocks unblocked">
+<a class="fg-card" href="/juegos/block-blast-master/" aria-label="Block Blast Master">
+<img src="https://static.playgama.com/p-img/pg/preview/04a40614748247acb645c57a718f9e36?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Block Blast Master</span>
+</a>
+</li><li data-search="geometry arrow 2 arcade skill popular">
+<a class="fg-card" href="/juegos/geometry-arrow-2/" aria-label="Geometry Arrow 2">
+<img src="https://static.playgama.com/p-img/pg/geometry-arrow-2/big-preview/fa9899500c7145d3a791954f399fcb3b?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Geometry Arrow 2</span>
+</a>
+</li><li data-search="sprunki simulation music mobile">
+<a class="fg-card" href="/juegos/sprunki-2c27-1/" aria-label="Sprunki">
+<img src="https://static.playgama.com/p-img/pg/sprunki-2c27-1/big-preview/0c80a1b350e54581ab19c5d17b0311a0?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Sprunki</span>
+</a>
+</li><li data-search="barry prison: parkour escape! platform obby escape parkour mobile">
+<a class="fg-card" href="/juegos/barry-prison-parkour-escape/" aria-label="Barry Prison: Parkour Escape!">
+<img src="https://static.playgama.com/p-img/pg/barry-prison-parkour-escape/big-preview/4573be679daa449f83e245f8242ecb23?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Barry Prison: Parkour Escape!</span>
+</a>
+</li><li data-search="fruit merge: juicy drop game puzzle watermelon merge matching">
+<a class="fg-card" href="/juegos/fruit-merge-playgama/" aria-label="Fruit Merge: Juicy Drop Game">
+<img src="https://static.playgama.com/p-img/pg/fruit-merge-playgama/big_preview/f88e2107d6554e668566d486ba0518a4?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Fruit Merge: Juicy Drop Game</span>
+</a>
+</li><li data-search="kick lucky blocks online obby">
+<a class="fg-card" href="/juegos/kick-lucky-blocks-online/" aria-label="Kick Lucky Blocks Online">
+<img src="https://static.playgama.com/p-img/pg/kick-lucky-blocks-online/big-preview/f5fa74d0b64c414590e5aa50153da447?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Kick Lucky Blocks Online</span>
+</a>
+</li><li data-search="obby: +1 digging power per click clicker obby">
+<a class="fg-card" href="/juegos/obby-1-digging-power-per-click/" aria-label="Obby: +1 Digging Power per Click">
+<img src="https://static.playgama.com/p-img/pg/preview/8020f37d0b4d4dc3b10954a2089a7ff1?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Obby: +1 Digging Power per Click</span>
+</a>
+</li><li data-search="2 minute football qb legend sports american-football">
+<a class="fg-card" href="/juegos/2-minute-football-qb-legend/" aria-label="2 Minute Football QB Legend">
+<img src="https://static.playgama.com/p-img/pg/preview/c636ca027221477282964a767b7c2764?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">2 Minute Football QB Legend</span>
+</a>
+</li><li data-search="minni family home - play house kids dress-up cozy">
+<a class="fg-card" href="/juegos/minni-family-home-play-house/" aria-label="Minni Family Home - Play House">
+<img src="https://static.playgama.com/p-img/pg/minni-family-home-play-house/big_preview/7ee457b3d6e54df7aaa5e8b7fd0448c3?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Minni Family Home - Play House</span>
+</a>
+</li><li data-search="driver club: highway racing action racing simulation boys car car-racing driving unity">
+<a class="fg-card" href="/juegos/driver-club-highway-racing/" aria-label="Driver Club: Highway Racing">
+<img src="https://static.playgama.com/p-img/pg/driver-club-highway-racing/big-preview/037ce11afe4f4d58a0f93a6339db96b5?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Driver Club: Highway Racing</span>
+</a>
+</li><li data-search="asmr girl: livestream mukbang simulation girls mouse food fashion cooking">
+<a class="fg-card" href="/juegos/asmr-girl-livestream-mukbang/" aria-label="ASMR Girl: Livestream Mukbang">
+<img src="https://static.playgama.com/p-img/pg/asmr-girl-livestream-mukbang/big_preview/75c1b5108aa645e39c7dc86583d1ff5b?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">ASMR Girl: Livestream Mukbang</span>
+</a>
+</li><li data-search="arrow exit puzzle puzzle matching brain logic">
+<a class="fg-card" href="/juegos/arrow-exit-puzzle/" aria-label="Arrow Exit Puzzle">
+<img src="https://static.playgama.com/p-img/pg/arrow-exit-puzzle/big-preview/8fb99bdb64614846863eeed2c60a222d?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Arrow Exit Puzzle</span>
+</a>
+</li><li data-search="cooking city girls food management restaurant cooking">
+<a class="fg-card" href="/juegos/cooking-city/" aria-label="Cooking City">
+<img src="https://static.playgama.com/p-img/pg/cooking-city/big-preview/a613289a041d4af798d600782f703899?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Cooking City</span>
+</a>
+</li><li data-search="sudoku online puzzle sudoku">
+<a class="fg-card" href="/juegos/sudoku-online/" aria-label="Sudoku Online">
+<img src="https://static.playgama.com/p-img/pg/preview/c9115ab8eaa246bb9059c21952319c4d?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Sudoku Online</span>
+</a>
+</li><li data-search="basket random action arcade sports two-player boys ragdoll basketball ball physics unblocked">
+<a class="fg-card" href="/juegos/basket-random/" aria-label="Basket Random">
+<img src="https://static.playgama.com/p-img/pg/basket-random/big_preview/796d7aa5c7c84741ae37cd1ae3da9c77?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Basket Random</span>
+</a>
+</li><li data-search="jewel coloring: crystal sorting puzzle matching logic color">
+<a class="fg-card" href="/juegos/jewel-coloring-crystal-sorting/" aria-label="Jewel Coloring: Crystal Sorting">
+<img src="https://static.playgama.com/p-img/pg/jewel-coloring-crystal-sorting/big_preview/bf22034afe414740869228e392e118b5?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Jewel Coloring: Crystal Sorting</span>
+</a>
+</li><li data-search="favorite puzzles puzzle brain logic">
+<a class="fg-card" href="/juegos/favorite-puzzles/" aria-label="Favorite Puzzles">
+<img src="https://static.playgama.com/p-img/pg/favorite-puzzles/big_preview/400025cc8973444fac031e1cb75faf61?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Favorite Puzzles</span>
+</a>
+</li><li data-search="pregnant mother simulator simulation girls 3d mobile">
+<a class="fg-card" href="/juegos/pregnant-mother-simulator/" aria-label="Pregnant Mother Simulator">
+<img src="https://static.playgama.com/p-img/pg/pregnant-mother-simulator/big-preview/5aa95a0bde734db9afb4ad57ede9a6c7?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Pregnant Mother Simulator</span>
+</a>
+</li><li data-search="geometry: black wave arcade skill platform">
+<a class="fg-card" href="/juegos/geometry-black-wave/" aria-label="Geometry: Black Wave">
+<img src="https://static.playgama.com/p-img/pg/geometry-black-wave/big-preview/66ec5ee2015f407ba0a0e1357ec190fe?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Geometry: Black Wave</span>
+</a>
+</li><li data-search="the tall man adventure horror 3d survival">
+<a class="fg-card" href="/juegos/the-tall-man/" aria-label="The Tall Man">
+<img src="https://static.playgama.com/p-img/pg/the-tall-man/big_preview/cad21af835d348db83f9aace4ccca043?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">The Tall Man</span>
+</a>
+</li><li data-search="moto x3m action racing skill boys popular motorbike dirt-bike bike mobile unblocked">
+<a class="fg-card" href="/juegos/moto-x3m/" aria-label="Moto X3M">
+<img src="https://static.playgama.com/p-img/pg/moto-x3m/big_preview/6863e1c77f624087bae1d217cdf4c240?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Moto X3M</span>
+</a>
+</li><li data-search="solitaire the collection puzzle cards solitaire brain classic logic">
+<a class="fg-card" href="/juegos/solitaire-the-collection/" aria-label="Solitaire The Collection">
+<img src="https://static.playgama.com/p-img/pg/solitaire-the-collection/big_preview/c84b321790284d9196e415def1f52692?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Solitaire The Collection</span>
+</a>
+</li><li data-search="word cross words educational">
+<a class="fg-card" href="/juegos/word-cross/" aria-label="Word Cross">
+<img src="https://static.playgama.com/p-img/pg/word-cross/big-preview/8f1e3ed1375c4aaeb121989990c10afe?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Word Cross</span>
+</a>
+</li><li data-search="noob in mine - sandbox &amp; craft action adventure simulation 3d survival">
+<a class="fg-card" href="/juegos/noob-in-mine--sandbox-craft/" aria-label="Noob in Mine - Sandbox &amp; Craft">
+<img src="https://static.playgama.com/p-img/pg/preview/e13a51171b67427284fd8f6fd8f7199b?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Noob in Mine - Sandbox &amp; Craft</span>
+</a>
+</li><li data-search="hidden object: my hotel adventure mouse popular hidden-object logic">
+<a class="fg-card" href="/juegos/hidden-object-my-hotel/" aria-label="Hidden Object: My Hotel">
+<img src="https://static.playgama.com/p-img/pg/hidden-object-my-hotel/big-preview/94eab6bba922419d904b5872c8a1fb52?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Hidden Object: My Hotel</span>
+</a>
+</li><li data-search="car destruction king action racing simulation boys 3d car driving physics unity">
+<a class="fg-card" href="/juegos/car-destruction-king/" aria-label="Car Destruction King">
+<img src="https://static.playgama.com/p-img/pg/car-destruction-king/big_preview/0ca8f4094cfd4826b9888ea1d094bdd7?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Car Destruction King</span>
+</a>
+</li><li data-search="epic sword battle! fight in the ragdoll arena! action boys fighting ragdoll mobile">
+<a class="fg-card" href="/juegos/epic-sword-battle-fight-in-the-ragdoll-arena/" aria-label="Epic Sword Battle! Fight in the Ragdoll Arena!">
+<img src="https://static.playgama.com/p-img/pg/epic-sword-battle-fight-in-the-ragdoll-arena/big_preview/cd9b92eab74043d293dfbbba8d4bcfd2?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Epic Sword Battle! Fight in the Ragdoll Arena!</span>
+</a>
+</li><li data-search="screw sort 3d puzzle 3d matching logic">
+<a class="fg-card" href="/juegos/screw-sort-3d/" aria-label="Screw Sort 3D">
+<img src="https://static.playgama.com/p-img/pg/screw-sort-3d/big-preview/077844b3a0f24b178c7f3e8a53bcc2b9?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Screw Sort 3D</span>
+</a>
+</li><li data-search="animal hair salon girls animals make-over hair">
+<a class="fg-card" href="/juegos/animal-hair-salon/" aria-label="Animal Hair Salon">
+<img src="https://static.playgama.com/p-img/pg/animal-hair-salon/big-preview/8ac649a2cf904f6091271cdecbab4055?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Animal Hair Salon</span>
+</a>
+</li><li data-search="obby: throw food for pets! arcade simulation kids 3d clicker obby">
+<a class="fg-card" href="/juegos/obby-throw-food-for-pets/" aria-label="OBBY: Throw Food for Pets!">
+<img src="https://static.playgama.com/p-img/pg/preview/a0ae2fa27df24a688ba881942c93927a?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">OBBY: Throw Food for Pets!</span>
+</a>
+</li><li data-search="animal hospital 3d simulation 3d ragdoll minecraft">
+<a class="fg-card" href="/juegos/animal-hospital-3d/" aria-label="Animal Hospital 3D">
+<img src="https://static.playgama.com/p-img/pg/animal-hospital-3d/big_preview/f2ccef16c86141f297907262648af44a?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Animal Hospital 3D</span>
+</a>
+</li><li data-search="tap 3d wood block away puzzle 3d matching brain blocks">
+<a class="fg-card" href="/juegos/tap-3d-wood-block-away/" aria-label="Tap 3D Wood Block Away">
+<img src="https://static.playgama.com/p-img/pg/tap-3d-wood-block-away/big_preview/ecdad60b756f4006aec4d3a7d8d3c55d?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Tap 3D Wood Block Away</span>
+</a>
+</li><li data-search="find the frog - hidden objects puzzle animals hidden-object point-and-click mobile">
+<a class="fg-card" href="/juegos/find-the-frog--hidden-objects/" aria-label="Find the Frog - Hidden Objects">
+<img src="https://static.playgama.com/p-img/pg/find-the-frog--hidden-objects/big_preview/541792f4c5354ef88be0646eb9be4b1b?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Find the Frog - Hidden Objects</span>
+</a>
+</li><li data-search="snake 2048 io snake">
+<a class="fg-card" href="/juegos/snake-2048-64be-1/" aria-label="Snake 2048">
+<img src="https://static.playgama.com/p-img/pg/snake-2048-64be-1/big-preview/ac8a1a98a2a14b65a0a04ee3f82ef222?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Snake 2048</span>
+</a>
+</li><li data-search="gym simulator online, escape obby escape">
+<a class="fg-card" href="/juegos/gym-simulator-online-escape/" aria-label="Gym Simulator Online, Escape">
+<img src="https://static.playgama.com/p-img/pg/gym-simulator-online-escape/big_preview/c86dc8829aa6427eadcf81f662e549de?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Gym Simulator Online, Escape</span>
+</a>
+</li><li data-search="color sort puzzle milk tea sorting puzzle matching brain logic color">
+<a class="fg-card" href="/juegos/color-sort-puzzle-milk-tea-sorting/" aria-label="Color Sort Puzzle Milk Tea Sorting">
+<img src="https://static.playgama.com/p-img/pg/color-sort-puzzle-milk-tea-sorting/big-preview/c194150319b84ce58ef6d3a9e5333945?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Color Sort Puzzle Milk Tea Sorting</span>
+</a>
+</li><li data-search="playground man! ragdoll show! funny ragdoll physics">
+<a class="fg-card" href="/juegos/playground-man-ragdoll-show/" aria-label="Playground Man! Ragdoll Show!">
+<img src="https://static.playgama.com/p-img/pg/playground-man-ragdoll-show/big-preview/02200d9a409548de91fdde8bbd455692?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Playground Man! Ragdoll Show!</span>
+</a>
+</li><li data-search="golf orbit sports boys ball physics easy golf">
+<a class="fg-card" href="/juegos/golf-orbit/" aria-label="Golf Orbit">
+<img src="https://static.playgama.com/p-img/pg/golf-orbit/big-preview/e7f203e28b0745d880d1c0a995e9b213?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Golf Orbit</span>
+</a>
+</li><li data-search="steal an egg - grow animals adventure simulation 3d running animals obby">
+<a class="fg-card" href="/juegos/steal-an-egg-grow-animals/" aria-label="Steal An Egg - Grow Animals">
+<img src="https://static.playgama.com/p-img/pg/steal-an-egg-grow-animals/big_preview/abe5e8a38d9d47488f7d57c239a2e540?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Steal An Egg - Grow Animals</span>
+</a>
+</li><li data-search="soccer legends 2026 arcade sports two-player boys multiplayer ball 1v1 soccer">
+<a class="fg-card" href="/juegos/soccer-legends-2026/" aria-label="Soccer Legends 2026">
+<img src="https://static.playgama.com/p-img/pg/soccer-legends-2026/big_preview/d916a3616e35444c8252443a4a2fe2ff?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Soccer Legends 2026</span>
+</a>
+</li><li data-search="mr racer - car racing racing boys car car-racing driving drifting">
+<a class="fg-card" href="/juegos/mr-racer-car-racing/" aria-label="MR RACER - Car Racing">
+<img src="https://static.playgama.com/p-img/pg/mr-racer-car-racing/big-preview/45ff957c535b47b7b3c3bc1a365201f6?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">MR RACER - Car Racing</span>
+</a>
+</li><li data-search="arrow cube 3d puzzle 3d matching logic">
+<a class="fg-card" href="/juegos/arrow-cube-3d/" aria-label="Arrow Cube 3D">
+<img src="https://static.playgama.com/p-img/pg/arrow-cube-3d/big-preview/af0fa0bfc76845b78b793da75e2a609b?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Arrow Cube 3D</span>
+</a>
+</li><li data-search="build an aquapark simulation tycoon obby physics crafting easy">
+<a class="fg-card" href="/juegos/build-an-aquapark/" aria-label="Build an Aquapark">
+<img src="https://static.playgama.com/p-img/pg/preview/f472a03ae13947f3b923b40342ff87ef?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Build an Aquapark</span>
+</a>
+</li><li data-search="hidden objects: island adventure hidden-object">
+<a class="fg-card" href="/juegos/hidden-objects-island/" aria-label="Hidden Objects: Island">
+<img src="https://static.playgama.com/p-img/pg/hidden-objects-island/big_preview/f23b7b464ab64392a1a16f5b1d8b0b0b?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Hidden Objects: Island</span>
+</a>
+</li><li data-search="mahjong 3 puzzle match-3 matching mahjong">
+<a class="fg-card" href="/juegos/mahjong-3/" aria-label="Mahjong 3">
+<img src="https://static.playgama.com/p-img/pg/mahjong-3/big_preview/d69531101486482eaa0d21d8b2ea98fa?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Mahjong 3</span>
+</a>
+</li><li data-search="cozy coloring cozy drawing color easy">
+<a class="fg-card" href="/juegos/cozy-coloring/" aria-label="Cozy Coloring">
+<img src="https://static.playgama.com/p-img/pg/cozy-coloring/big-preview/cbde02e9b3794c65b5e9db31b18e82d9?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Cozy Coloring</span>
+</a>
+</li><li data-search="coloring book : color by number number drawing color">
+<a class="fg-card" href="/juegos/coloring-book--color-by-number/" aria-label="Coloring Book : Color By Number">
+<img src="https://static.playgama.com/p-img/pg/coloring-book-color-by-number/big_preview/04827d0e56fa4478b2a695b3bd1ba157?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Coloring Book : Color By Number</span>
+</a>
+</li><li data-search="solitaire crime stories adventure cards solitaire">
+<a class="fg-card" href="/juegos/solitaire-crime-stories/" aria-label="Solitaire Crime Stories">
+<img src="https://static.playgama.com/p-img/pg/solitaire-crime-stories/big-preview/6e93bfefaa9944f980f49f7bced0664c?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Solitaire Crime Stories</span>
+</a>
+</li><li data-search="yarn fever! unravel puzzle puzzle cozy matching brain color">
+<a class="fg-card" href="/juegos/yarn-fever-unravel-puzzle/" aria-label="Yarn Fever! Unravel Puzzle">
+<img src="https://static.playgama.com/p-img/pg/yarn-fever-unravel-puzzle/big_preview/faa68d61c5b44e64814eb14827a50d61?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Yarn Fever! Unravel Puzzle</span>
+</a>
+</li><li data-search="obby dont splash he knows action skill horror 3d platform obby parkour">
+<a class="fg-card" href="/juegos/obby-dont-splash-he-knows/" aria-label="Obby Dont Splash He Knows">
+<img src="https://static.playgama.com/p-img/pg/preview/60fe747bb46a49a2b2cec168cb5c3632?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Obby Dont Splash He Knows</span>
+</a>
+</li><li data-search="bus escape: clear jam matching bus escape parking color unblock-puzzles">
+<a class="fg-card" href="/juegos/bus-escape-clear-jam/" aria-label="Bus Escape: Clear Jam">
+<img src="https://static.playgama.com/p-img/pg/bus-escape-clear-jam/big-preview/882762d1f3df4eed9bab0098ce2067d7?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Bus Escape: Clear Jam</span>
+</a>
+</li><li data-search="sorter: ragdoll playground shooter shooting ragdoll">
+<a class="fg-card" href="/juegos/sorter-ragdoll-playground-shooter/" aria-label="Sorter: Ragdoll Playground Shooter">
+<img src="https://static.playgama.com/p-img/pg/sorter-ragdoll-playground-shooter/big_preview/47b40f9a91e8490398850d88f341c42f?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Sorter: Ragdoll Playground Shooter</span>
+</a>
+</li><li data-search="ragdoll soccer sports two-player boys funny multiplayer ragdoll penalty soccer unity stickman">
+<a class="fg-card" href="/juegos/ragdoll-soccer/" aria-label="Ragdoll Soccer">
+<img src="https://static.playgama.com/p-img/pg/ragdoll-soccer/big_preview/89eea6260df6439e81dac76423b04309?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Ragdoll Soccer</span>
+</a>
+</li><li data-search="+1 speed: escape prison obby">
+<a class="fg-card" href="/juegos/1-speed-escape-prison/" aria-label="+1 Speed: Escape Prison">
+<img src="https://static.playgama.com/p-img/pg/1-speed-escape-prison/big-preview/415c3326c7724e6cae83d74990cc3020?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">+1 Speed: Escape Prison</span>
+</a>
+</li><li data-search="jelly sandbox playground action arcade simulation shooting gun fighting ragdoll tanks physics">
+<a class="fg-card" href="/juegos/jelly-sandbox-playground/" aria-label="Jelly Sandbox Playground">
+<img src="https://static.playgama.com/p-img/pg/preview/e9a01fd47caf429fb9bd42501917071d?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Jelly Sandbox Playground</span>
+</a>
+</li><li data-search="spooky halloween makeover simulation girls make-over dress-up decoration halloween">
+<a class="fg-card" href="/juegos/spooky-halloween-makeover/" aria-label="Spooky Halloween Makeover">
+<img src="https://static.playgama.com/p-img/pg/spooky-halloween-makeover/big_preview/43bccaa9c46945ccab4c85164a57c57b?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Spooky Halloween Makeover</span>
+</a>
+</li><li data-search="vega mix 2: adventure match-3 matching mobile">
+<a class="fg-card" href="/juegos/vega-mix-2-adventure/" aria-label="Vega Mix 2: Adventure">
+<img src="https://static.playgama.com/p-img/pg/vega-mix-2-adventure/big-preview/46f5bcaca15b411382afc96ac1c38132?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Vega Mix 2: Adventure</span>
+</a>
+</li><li data-search="ball sort puzzle puzzle matching brain classic logic color mobile">
+<a class="fg-card" href="/juegos/ball-sort-puzzle/" aria-label="Ball Sort Puzzle">
+<img src="https://static.playgama.com/p-img/pg/ball-sort-puzzle/big-preview/c5a9a8d0f4ef4def947c09c135f2f875?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Ball Sort Puzzle</span>
+</a>
+</li><li data-search="cozy jigsaw puzzles puzzle cozy brain easy">
+<a class="fg-card" href="/juegos/cozy-jigsaw-puzzles/" aria-label="Cozy Jigsaw Puzzles">
+<img src="https://static.playgama.com/p-img/pg/cozy-jigsaw-puzzles/big_preview/161cee7c0f634c70ad38a573560b1967?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Cozy Jigsaw Puzzles</span>
+</a>
+</li><li data-search="sprunki action playground: ragdoll sandbox action simulation funny ragdoll physics">
+<a class="fg-card" href="/juegos/sprunki-action-playground-ragdoll-sandbox/" aria-label="Sprunki Action Playground: Ragdoll Sandbox">
+<img src="https://static.playgama.com/p-img/pg/sprunki-action-playground-ragdoll-sandbox/big_preview/57f1d8bf73174f6cbd302451d45779b7?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Sprunki Action Playground: Ragdoll Sandbox</span>
+</a>
+</li><li data-search="block blast 2048 puzzle number merge blocks unblocked">
+<a class="fg-card" href="/juegos/block-blast-2048/" aria-label="Block Blast 2048">
+<img src="https://static.playgama.com/p-img/pg/block-blast-2048/big-preview/15f394ba6c12422fb69c4905e35ed8ed?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Block Blast 2048</span>
+</a>
+</li><li data-search="beam drive car crash test simulator simulation boys car driving">
+<a class="fg-card" href="/juegos/beam-drive-car-crash-test-simulator/" aria-label="Beam Drive Car Crash Test Simulator">
+<img src="https://static.playgama.com/p-img/pg/beam-drive-car-crash-test-simulator/big_preview/0963372e40aa423fb5263261ccb4d95c?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Beam Drive Car Crash Test Simulator</span>
+</a>
+</li><li data-search="super candy jewels puzzle match-3 popular matching mobile">
+<a class="fg-card" href="/juegos/super-candy-jewels/" aria-label="Super Candy Jewels">
+<img src="https://static.playgama.com/p-img/pg/super-candy-jewels/big-preview/9af24bd7de5b4081bd23becf55a29dc0?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Super Candy Jewels</span>
+</a>
+</li><li data-search="hidden objects: home sweet home hidden-object cozy point-and-click">
+<a class="fg-card" href="/juegos/hidden-objects-home-sweet-home/" aria-label="Hidden Objects: Home Sweet Home">
+<img src="https://static.playgama.com/p-img/pg/hidden-objects-home-sweet-home/big-preview/4ab84c7089d74a1da9c86e05df3db821?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Hidden Objects: Home Sweet Home</span>
+</a>
+</li><li data-search="geometry vibes arcade skill popular music mobile">
+<a class="fg-card" href="/juegos/geometry-vibes/" aria-label="Geometry Vibes">
+<img src="https://static.playgama.com/p-img/pg/geometry-vibes/big-preview/cd0c9c56e9e54948b7eca6c49ef590b5?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Geometry Vibes</span>
+</a>
+</li><li data-search="city bus simulator driving games simulation 3d car driving bus parking">
+<a class="fg-card" href="/juegos/city-bus-simulator-driving-games/" aria-label="City Bus Simulator Driving Games">
+<img src="https://static.playgama.com/p-img/pg/city-bus-simulator-driving-games/big_preview/3dc328398fd44f93a76ae33906e189e6?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">City Bus Simulator Driving Games</span>
+</a>
+</li><li data-search="bubble pop fairyland bubble-shooter matching bubble mobile">
+<a class="fg-card" href="/juegos/bubble-pop-fairyland/" aria-label="Bubble Pop Fairyland">
+<img src="https://static.playgama.com/p-img/pg/bubble-pop-fairyland/big-preview/dd99a3ffc5c34b4cb45c47401a24768c?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Bubble Pop Fairyland</span>
+</a>
+</li><li data-search="stickman kombat 2d action skill boys fighting stickman">
+<a class="fg-card" href="/juegos/stickman-kombat-2d/" aria-label="Stickman Kombat 2D">
+<img src="https://static.playgama.com/p-img/pg/stickman-kombat-2d/big_preview/4b027b6071e2495aad3ac02403e35a1a?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Stickman Kombat 2D</span>
+</a>
+</li><li data-search="domino battle popular board">
+<a class="fg-card" href="/juegos/domino-battle/" aria-label="Domino Battle">
+<img src="https://static.playgama.com/p-img/pg/domino-battle/big-preview/f11c8d363d2c4b8da486e62c70a42c69?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Domino Battle</span>
+</a>
+</li><li data-search="wild love adventure girls story love point-and-click mobile">
+<a class="fg-card" href="/juegos/wild-love/" aria-label="Wild Love">
+<img src="https://static.playgama.com/p-img/pg/wild-love/big-preview/96d2f507a5c24c41a59e22748becd1fe?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Wild Love</span>
+</a>
+</li><li data-search="bmg: ragdoll car race racing skill boys car car-racing ragdoll driving">
+<a class="fg-card" href="/juegos/bmg-ragdoll-car-race/" aria-label="BMG: Ragdoll Car Race">
+<img src="https://static.playgama.com/p-img/pg/bmg-ragdoll-car-race/big_preview/3b832d0b349546d4bce04355dc36f0b4?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">BMG: Ragdoll Car Race</span>
+</a>
+</li><li data-search="soccerlat: 3d football online action sports simulation skill 3d multiplayer pve pvp 1v1 physics soccer">
+<a class="fg-card" href="/juegos/soccerlat-3d-football-online/" aria-label="SoccerLat: 3D Football Online">
+<img src="https://static.playgama.com/p-img/pg/preview/8efc792e178c4ecf9c3fe562fcf1a6fc?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">SoccerLat: 3D Football Online</span>
+</a>
+</li><li data-search="bubble pop legend arcade bubble-shooter matching bubble">
+<a class="fg-card" href="/juegos/bubble-pop-legend/" aria-label="Bubble Pop Legend">
+<img src="https://static.playgama.com/p-img/pg/bubble-pop-legend/big-preview/b4e3c3c1844e441190a422148a9c98ee?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Bubble Pop Legend</span>
+</a>
+</li><li data-search="age of tanks warriors: td war strategy boys tower-defense tanks war mobile">
+<a class="fg-card" href="/juegos/age-of-tanks-warriors-td-war/" aria-label="Age of Tanks Warriors: TD War">
+<img src="https://static.playgama.com/p-img/pg/age-of-tanks-warriors-td-war/big-preview/5061aadf18094454bc3abd61cef1477e?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Age of Tanks Warriors: TD War</span>
+</a>
+</li><li data-search="emerland solitaire adventure cards solitaire pve magic">
+<a class="fg-card" href="/juegos/emerland-solitaire/" aria-label="Emerland Solitaire">
+<img src="https://static.playgama.com/p-img/pg/emerland-solitaire/big-preview/a28ad092fa0846c2a837bfdbf4024a0d?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Emerland Solitaire</span>
+</a>
+</li><li data-search="ragdoll racing: extreme downhill! racing arcade boys running ragdoll">
+<a class="fg-card" href="/juegos/ragdoll-racing-extreme-downhill/" aria-label="Ragdoll Racing: Extreme Downhill!">
+<img src="https://static.playgama.com/p-img/pg/ragdoll-racing-extreme-downhill/big_preview/8f4406e66d22496ab01d67381bc6dfe3?width=320" width="320" height="200" alt="" loading="lazy" decoding="async">
+<span class="fg-card__play" aria-hidden="true"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span></span>
+<span class="fg-card__t">Ragdoll Racing: Extreme Downhill!</span>
+</a>
 </li></ul>
-<p class="real-note">Juegos servidos por Playgama. Cada juego tiene sus propios controles, anuncios y política de privacidad.</p>
-</section>
-<section class="wrap real-original">
-<div class="real-original-card">
-<h2>Chispazo — juego original</h2>
-<p>Nuestro primer juego propio, un reto de timing de un toque. Todavía está en preparación.</p>
-<a class="btn btn--mango" href="/juegos-originales">Ver el concepto</a>
-</div>
+<div class="fg-more" id="more" aria-hidden="true"></div>
+<p class="fg-empty" id="empty" hidden>Sin resultados.</p>
 </section>
 </main>
-<footer class="ftr" data-astro-cid-sz7xmlte> <div class="wrap" data-astro-cid-sz7xmlte> <div class="ftr__top" data-astro-cid-sz7xmlte> <div class="ftr__brand" data-astro-cid-sz7xmlte> <span class="logo logo--md" data-astro-cid-tvrurpns> <svg class="logo__iso" viewBox="0 0 40 40" aria-hidden="true" focusable="false" data-astro-cid-tvrurpns><rect x="1" y="1" width="38" height="38" rx="11" fill="#ffc21a" stroke="#0a090b" stroke-width="2" data-astro-cid-tvrurpns></rect><path fill="#0a090b" d="M19.6 6.5c1.2 4.6 7.9 8 7.9 16.3 0 5.4-3.6 9.7-8.4 9.7-4.9 0-8.6-3.9-8.6-9 0-4.1 2.4-6.7 4.1-8.7.3 2.6 1.3 4.3 2.9 5-.7-4.7.3-9.4 2.1-13.3z" data-astro-cid-tvrurpns></path><path fill="#ffc21a" d="M19.3 30.2c-2.3 0-3.8-1.7-3.8-3.8 0-2.4 1.8-3.6 2.8-5.6 1.2 2.7 4.6 3.2 4.6 6 0 2-1.5 3.4-3.6 3.4z" data-astro-cid-tvrurpns></path><path fill="#0a090b" d="M30.5 6.8l1 2.7 2.7 1-2.7 1-1 2.7-1-2.7-2.7-1 2.7-1z" data-astro-cid-tvrurpns></path></svg> <span class="logo__word" data-astro-cid-tvrurpns> <span class="sr-only" data-astro-cid-tvrurpns>FuegoArcade</span> <span aria-hidden="true" data-astro-cid-tvrurpns>Fuego<b data-astro-cid-tvrurpns>Arcade</b></span> </span> </span>  <p data-astro-cid-sz7xmlte>Juegos cortos. Sin vueltas. Sin registro, sin monedas, sin premios en efectivo.</p> </div> <nav aria-label="Categorías" class="ftr__col" data-astro-cid-sz7xmlte> <h2 data-astro-cid-sz7xmlte>Categorías</h2> <ul data-astro-cid-sz7xmlte><li data-astro-cid-sz7xmlte><a href="/categoria/puzzle" data-astro-cid-sz7xmlte>Puzzle</a></li><li data-astro-cid-sz7xmlte><a href="/categoria/reflejos-arcade" data-astro-cid-sz7xmlte>Reflejos y arcade</a></li><li data-astro-cid-sz7xmlte><a href="/categoria/habilidad-timing" data-astro-cid-sz7xmlte>Habilidad y timing</a></li><li data-astro-cid-sz7xmlte><a href="/categoria/carreras-ligeras" data-astro-cid-sz7xmlte>Carreras ligeras</a></li><li data-astro-cid-sz7xmlte><a href="/categoria/dos-jugadores" data-astro-cid-sz7xmlte>2 jugadores, mismo cel</a></li></ul> </nav> <nav aria-label="FuegoArcade" class="ftr__col" data-astro-cid-sz7xmlte> <h2 data-astro-cid-sz7xmlte>FuegoArcade</h2> <ul data-astro-cid-sz7xmlte> <li data-astro-cid-sz7xmlte><a href="/juegos" data-astro-cid-sz7xmlte>Todos los juegos</a></li> <li data-astro-cid-sz7xmlte><a href="/juegos-originales" data-astro-cid-sz7xmlte>Juegos originales</a></li> <li data-astro-cid-sz7xmlte><a href="/acerca" data-astro-cid-sz7xmlte>Acerca</a></li> <li data-astro-cid-sz7xmlte><a href="/soporte" data-astro-cid-sz7xmlte>Soporte</a></li> <li data-astro-cid-sz7xmlte><a href="/contacto" data-astro-cid-sz7xmlte>Contacto</a></li> </ul> </nav> <nav aria-label="Legal" class="ftr__col" data-astro-cid-sz7xmlte> <h2 data-astro-cid-sz7xmlte>Legal </h2> <ul data-astro-cid-sz7xmlte> <li data-astro-cid-sz7xmlte><a href="/privacidad" data-astro-cid-sz7xmlte>Privacidad</a></li> <li data-astro-cid-sz7xmlte><a href="/terminos" data-astro-cid-sz7xmlte>Términos de uso</a></li> <li data-astro-cid-sz7xmlte><a href="/cookies" data-astro-cid-sz7xmlte>Cookies y almacenamiento</a></li> </ul> </nav> </div> <div class="ftr__bottom" data-astro-cid-sz7xmlte> <p data-astro-cid-sz7xmlte>FuegoArcade es un portal independiente de juegos HTML5. Los juegos de terceros son servidos por Playgama y se rigen por sus términos y política de privacidad.</p>  </div> </div> </footer>
+<footer class="fg-foot">
+<div class="wrap fg-foot__in">
+<span>FuegoArcade © 2026</span>
+<nav aria-label="Legal">
+<a href="/privacidad">Privacidad</a>
+<a href="/terminos">Términos</a>
+<a href="/contacto">Contacto</a>
+</nav>
+</div>
+</footer>
 <div id="live-region" class="sr-only" aria-live="polite" aria-atomic="true" data-astro-cid-5hce7sga></div>
-
+<script>
+(() => {
+  const grid = document.getElementById('grid');
+  const empty = document.getElementById('empty');
+  const sentinel = document.getElementById('more');
+  const input = document.getElementById('hdr-q');
+  if (!grid) return;
+  const initialCards = Array.from(grid.children);
+  const BATCH = 90;
+  const MAX_RESULTS = 300;
+  let nextIndex = initialCards.length;
+  let data = null;
+  let dataPromise = null;
+  let mode = 'all';
+  let currentQuery = '';
+  let nearBottom = false;
+  const PLAY_SVG = '<span><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg></span>';
+  function makeCard(item) {
+    const slug = item[0];
+    const title = item[1];
+    const cover = item[2];
+    const search = item[3] || '';
+    const li = document.createElement('li');
+    li.dataset.search = search;
+    const a = document.createElement('a');
+    a.className = 'fg-card';
+    a.href = '/juegos/' + encodeURIComponent(slug) + '/';
+    a.setAttribute('aria-label', title);
+    const img = document.createElement('img');
+    img.src = cover;
+    img.width = 320;
+    img.height = 200;
+    img.alt = '';
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    const play = document.createElement('span');
+    play.className = 'fg-card__play';
+    play.setAttribute('aria-hidden', 'true');
+    play.innerHTML = PLAY_SVG;
+    const label = document.createElement('span');
+    label.className = 'fg-card__t';
+    label.textContent = title;
+    a.append(img, play, label);
+    li.append(a);
+    return li;
+  }
+  function showInitial() {
+    mode = 'all';
+    currentQuery = '';
+    grid.replaceChildren(...initialCards);
+    nextIndex = initialCards.length;
+    if (sentinel) sentinel.hidden = false;
+    if (empty) empty.hidden = true;
+  }
+  function appendBatch() {
+    if (mode !== 'all' || !data) return;
+    if (nextIndex >= data.length) {
+      if (sentinel) sentinel.hidden = true;
+      return;
+    }
+    const end = Math.min(nextIndex + BATCH, data.length);
+    const fragment = document.createDocumentFragment();
+    for (let i = nextIndex; i < end; i++) fragment.append(makeCard(data[i]));
+    grid.append(fragment);
+    nextIndex = end;
+    if (sentinel && nextIndex >= data.length) sentinel.hidden = true;
+  }
+  function loadData() {
+    if (data) return Promise.resolve(data);
+    if (dataPromise) return dataPromise;
+    dataPromise = fetch('/data/games.json', { cache: 'force-cache' })
+      .then(response => response.ok ? response.json() : [])
+      .then(items => {
+        data = Array.isArray(items) ? items : [];
+        if (mode === 'search' && currentQuery) applySearch(currentQuery);
+        else if (nearBottom) appendBatch();
+        return data;
+      })
+      .catch(() => {
+        data = [];
+        return data;
+      });
+    return dataPromise;
+  }
+  function applySearch(raw) {
+    const query = (raw || '').trim().toLowerCase();
+    currentQuery = query;
+    if (!query) {
+      showInitial();
+      return;
+    }
+    mode = 'search';
+    if (sentinel) sentinel.hidden = true;
+    let results = [];
+    if (data) {
+      for (const item of data) {
+        if ((item[3] || '').includes(query)) results.push(item);
+        if (results.length >= MAX_RESULTS) break;
+      }
+      grid.replaceChildren(...results.map(makeCard));
+    } else {
+      for (const li of initialCards) {
+        if ((li.dataset.search || '').includes(query)) results.push(li);
+      }
+      grid.replaceChildren(...results);
+      loadData();
+    }
+    if (empty) empty.hidden = results.length !== 0;
+  }
+  function queueSearch() {
+    clearTimeout(queueSearch.timer);
+    queueSearch.timer = setTimeout(() => applySearch(input ? input.value : ''), 90);
+    loadData();
+  }
+  const initialQuery = new URLSearchParams(location.search).get('q') || '';
+  if (input) {
+    if (initialQuery) input.value = initialQuery;
+    input.addEventListener('input', queueSearch);
+    if (input.form) input.form.addEventListener('submit', event => {
+      event.preventDefault();
+      applySearch(input.value);
+      loadData();
+      input.blur();
+    });
+  }
+  if (initialQuery) applySearch(initialQuery);
+  if ('IntersectionObserver' in window && sentinel) {
+    const observer = new IntersectionObserver(entries => {
+      nearBottom = entries.some(entry => entry.isIntersecting);
+      if (!nearBottom) return;
+      if (data) appendBatch();
+      else loadData();
+    }, { rootMargin: '900px 0px' });
+    observer.observe(sentinel);
+  } else {
+    window.addEventListener('scroll', () => {
+      if (window.innerHeight + window.scrollY < document.documentElement.scrollHeight - 900) return;
+      if (data) appendBatch();
+      else loadData();
+    }, { passive: true });
+  }
+  if ('requestIdleCallback' in window) requestIdleCallback(loadData, { timeout: 2000 });
+  else setTimeout(loadData, 700);
+})();
+</script>
 </body>
 </html>

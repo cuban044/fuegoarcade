@@ -1,0 +1,21 @@
+@font-face{font-family:'Bricolage Grotesque';font-style:normal;font-display:swap;font-weight:200 800;src:url('/fonts/bricolage-wght.woff2') format('woff2')}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;padding:0;background:#000;color:#fff;font-family:'Bricolage Grotesque',system-ui,-apple-system,'Segoe UI',sans-serif;overflow:hidden;-webkit-tap-highlight-color:transparent;color-scheme:dark}
+body.fg-play-body{background:#000}
+.fg-play{display:flex;flex-direction:column;height:100dvh;min-height:100svh;background:#000}
+.fg-play__bar{position:relative;z-index:4;display:flex;align-items:center;gap:8px;flex:0 0 auto;min-height:54px;padding:calc(6px + env(safe-area-inset-top)) 10px 6px;background:#121016;border-bottom:1px solid rgba(255,255,255,.12)}
+.fg-play__back,.fg-play__fs{width:40px;height:40px;flex:0 0 auto;display:grid;place-items:center;border-radius:12px;border:1px solid rgba(255,255,255,.16);background:#1d1a23;color:#fff;text-decoration:none;cursor:pointer;padding:0}
+.fg-play__back:hover,.fg-play__fs:hover{border-color:#ffc21a;color:#ffc21a}
+.fg-play__back:focus-visible,.fg-play__fs:focus-visible,.fg-play__exit:focus-visible{outline:3px solid #ffc21a;outline-offset:2px}
+.fg-play__fs{background:#ffc21a;border-color:#ffc21a;color:#111}
+.fg-play__fs:hover{background:#ffd45c;border-color:#ffd45c;color:#111}
+.fg-play__title{flex:1;min-width:0;margin:0;font-size:14px;font-weight:800;line-height:1.2;letter-spacing:-.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fg-play__stage{position:relative;flex:1 1 auto;min-height:0;overflow:hidden;background:#000}
+.fg-play__cover{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.fg-play__stage iframe{position:absolute;inset:0;z-index:1;width:100%;height:100%;border:0;background:#000}
+.fg-play__exit{position:absolute;top:calc(10px + env(safe-area-inset-top));left:10px;z-index:5;width:38px;height:38px;border-radius:50%;border:1px solid rgba(255,255,255,.3);background:rgba(7,6,9,.66);color:#fff;display:grid;place-items:center;cursor:pointer;padding:0;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.fg-play__exit[hidden]{display:none}
+.fg-play__stage:fullscreen{width:100vw;height:100vh;background:#000}
+.fg-play__stage.is-faux-fs{position:fixed;inset:0;z-index:9999;width:100vw;height:100dvh}
+body.fg-locked{overflow:hidden}
+@media(min-width:900px){.fg-play__bar{min-height:58px;padding:8px 16px}.fg-play__title{font-size:17px}.fg-play__back,.fg-play__fs{width:42px;height:42px}}
