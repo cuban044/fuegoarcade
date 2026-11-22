@@ -23,9 +23,14 @@
     if (document.fullscreenElement || stage.classList.contains('is-faux-fs')) return;
     try {
       if (stage.requestFullscreen) {
-        await stage.requestFullscreen({ navigationUI: 'hide' });
-        syncExit();
-        return;
+        const outcome = await Promise.race([
+          stage.requestFullscreen({ navigationUI: 'hide' }).then(() => 'ok').catch(() => 'fail'),
+          new Promise(resolve => setTimeout(() => resolve('timeout'), 900))
+        ]);
+        if (outcome === 'ok') {
+          syncExit();
+          return;
+        }
       }
     } catch (error) {}
     stage.classList.add('is-faux-fs');
@@ -45,7 +50,13 @@
     else enterFullscreen();
   });
   if (exitBtn) exitBtn.addEventListener('click', leaveFullscreen);
-  document.addEventListener('fullscreenchange', syncExit);
+  document.addEventListener('fullscreenchange', () => {
+    if (!document.fullscreenElement) {
+      stage.classList.remove('is-faux-fs');
+      document.body.classList.remove('fg-locked');
+    }
+    syncExit();
+  });
   window.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && stage.classList.contains('is-faux-fs')) leaveFullscreen();
   });
