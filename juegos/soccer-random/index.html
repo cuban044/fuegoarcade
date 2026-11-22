@@ -81,7 +81,7 @@
 <button type="button" class="btn btn--icon btn--ghost" id="fs-btn" aria-label="Pantalla completa" data-astro-cid-sy4gcvke><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"></path></svg></button>
 </div>
 <div class="player__stage" data-astro-cid-sy4gcvke><div class="player__frame" id="frame" data-astro-cid-sy4gcvke></div></div>
-<p class="player__foot" data-astro-cid-sy4gcvke>Juego servido por Playgama · <kbd data-astro-cid-sy4gcvke>Esc</kbd> para salir</p>
+<p class="player__foot" data-astro-cid-sy4gcvke>Juego servido por Playgama. Si aparece su portada o un anuncio, pulsa «Let’s Play» o ciérralo para jugar · <kbd data-astro-cid-sy4gcvke>Esc</kbd> para salir</p>
 </dialog>
 <header class="ficha__head" data-astro-cid-6tx37kzw>
 <div class="ficha__tit" data-astro-cid-6tx37kzw><h1 data-astro-cid-6tx37kzw>Soccer Random</h1>
@@ -178,9 +178,8 @@
       iframe = document.createElement('iframe');
       iframe.src = url;
       iframe.title = title;
-      iframe.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-popups allow-forms allow-modals');
       iframe.setAttribute('allow', 'fullscreen; autoplay; gamepad; accelerometer; gyroscope');
-      iframe.setAttribute('referrerpolicy', 'no-referrer');
+      iframe.setAttribute('allowfullscreen', 'true');
       iframe.style.cssText = 'width:100%;height:100%;border:0;background:#000';
       frame.replaceChildren(iframe);
     }
